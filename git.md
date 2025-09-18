@@ -10,7 +10,7 @@
 ### Rename Branch
 Use: `rename_branch *old_name* *new_name*`
 
-```
+```bash
 rename_branch() {
     git branch $2 &&
     git checkout $2 &&
