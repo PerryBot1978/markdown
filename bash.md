@@ -1,5 +1,19 @@
 # Bash
 
+## Processes
+### Run in New Process
+```bash
+*command* &
+```
+### Wait for All Child Processes
+```bash
+wait
+```
+### Wait for Specific Child Process(es)
+```bash
+wait *pId(s)*
+```
+
 ## Assignment
 ```bash
 *var*=*value*
