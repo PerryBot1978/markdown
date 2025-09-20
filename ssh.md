@@ -10,3 +10,5 @@
 `ssh username@host -tf 'command'`
 ## Connect to Port
 `ssh -p port username@host`
+## Copy keys to host
+`ssh-copy-id username@host`
